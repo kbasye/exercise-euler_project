@@ -30,4 +30,4 @@ module Fibonacci
 
 end
 
-Fibonacci.sum(Fibonacci.select_even(Fibonacci.build_until(4000000)))
+Fibonacci.sum(Fibonacci.select_even(Fibonacci.build_until(4000000))) == 4613732
